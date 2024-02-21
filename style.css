@@ -191,15 +191,15 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 10px;
+    margin: 0px 0px;
 }
 .brand{
     font-size: 30px;
     color: black;
 }
-.icon:hover{
-    background-image: linear-gradient(to bottom right, orange,rgb(255,200,0),rgb(255,255,255));
-}
+    .icon:hover{
+        background-image: linear-gradient(to bottom right, orange,rgb(255,200,0),rgb(255,255,255));
+    }
 .brand:hover{
     color: white;
     animation: shake 0.90s;
